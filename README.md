@@ -1,6 +1,6 @@
-# Liora Journeys
+# Vistora Global Turizm
 
-Seçkin rotalar ve kişiye özel seyahat deneyimleri için hazırlanmış responsive turizm web sitesi.
+Termal konaklama, otel yönetimi ve turizm yatırım danışmanlığı için hazırlanmış responsive kurumsal web sitesi.
 
 ## Yerel önizleme
 
@@ -12,4 +12,4 @@ npx serve .
 
 Proje saf HTML, CSS ve JavaScript kullanır. Vercel'de **Other** framework seçilerek build komutu olmadan doğrudan yayınlanabilir.
 
-Marka adı ve iletişim bilgileri konsept içeriktir; canlı yayın öncesinde gerçek bilgilerle değiştirilmelidir.
+Valide Sultan Termal Otel ve iletişim içerikleri Kayı Real Turizm & İnşaat referans sitesinden uyarlanmıştır.
