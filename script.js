@@ -110,6 +110,6 @@ $('.booking-form').addEventListener('submit', event => {
   event.preventDefault();
   const data = new FormData(event.currentTarget);
   const message = `Merhaba, ben ${data.get('name')}. ${data.get('interest')} için ${data.get('guests')} bilgi almak istiyorum. ${data.get('message') || ''}`;
-  const link = `https://wa.me/905015365345?text=${encodeURIComponent(message)}`;
+  const link = `https://wa.me/905075401580?text=${encodeURIComponent(message)}`;
   $('.form-result').innerHTML = `Talebiniz hazırlandı. <a href="${link}" target="_blank" rel="noopener">WhatsApp üzerinden iletin →</a>`;
 });
