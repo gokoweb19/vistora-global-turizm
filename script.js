@@ -33,9 +33,9 @@ $$('.about-list button').forEach(button => button.addEventListener('click', () =
 }));
 
 const rooms = [
-  { title: '1+1 Standart', label: 'FERAH YAŞAM ALANI', image: 'assets/spa-1.jpg', copy: 'Yatak odası, salon, mutfak, geniş balkon, termal küvet ve çift lavabo ile fonksiyonel çözüm.' },
-  { title: '2+1 Standart', label: 'GENİŞ AİLE DOSTU', image: 'assets/spa-2.jpg', copy: 'Yatak odası, çocuk odası, salon, mutfak, üç balkon ve termal duşakabin ile aile boyu konfor.' },
-  { title: '2+1 VIP Oda', label: 'VIP JAKUZİ & HAMAM', image: 'assets/hotel-6.jpg', copy: 'Özel hamam, çift kişilik masajlı jakuzi, salon, mutfak ve termal küvet ile en üst düzey konaklama deneyimi.' }
+  { title: '1+1 Standart', label: 'FERAH YAŞAM ALANI', image: 'assets/valide-lounge.webp', copy: 'Salon, mutfak, balkon veya veranda ve jakuzili banyo ile uzun konaklamaya uygun fonksiyonel çözüm.' },
+  { title: '2+1 Standart', label: 'AİLE ODAKLI KONFOR', image: 'assets/valide-indoor-pool.webp', copy: 'Geniş yaşam planını termal tesis olanakları, mutfak ve yerden ısıtma konforuyla tamamlayan aile seçeneği.' },
+  { title: '2+1 VIP Oda', label: 'ÖZEL JAKUZİ DENEYİMİ', image: 'assets/valide-jacuzzi.webp', copy: 'Özel jakuzili banyosu, donanımlı mutfağı ve geniş yaşam alanıyla daha ayrıcalıklı konaklama deneyimi.' }
 ];
 $$('.room-tab').forEach(button => button.addEventListener('click', () => {
   $$('.room-tab').forEach(item => {
@@ -57,13 +57,13 @@ $$('.room-tab').forEach(button => button.addEventListener('click', () => {
 }));
 
 const galleryItems = [
-  ['assets/spa-1.jpg', 'Valide Sultan Termal Otel · Lobi'],
-  ['assets/spa-2.jpg', 'Valide Sultan Termal Otel · Açık Havuz'],
-  ['assets/spa-3.jpg', 'Termal SPA · Bakım Ritüeli'],
-  ['assets/spa-4.jpg', 'SPA · Sıcak Taş Masajı'],
-  ['assets/spa-5.jpg', 'Wellness · Yenilenme'],
-  ['assets/spa-6.jpg', 'SPA · Profesyonel Masaj'],
-  ['assets/hotel-6.jpg', 'Havuz Başı · Gastronomi']
+  ['assets/valide-exterior-night.png', 'Valide Sultan · Gece Açık Havuz'],
+  ['assets/valide-open-pool.webp', 'Valide Sultan · Gündüz Açık Havuz'],
+  ['assets/valide-hamam.webp', 'Valide Sultan · Geleneksel Hamam'],
+  ['assets/valide-indoor-pool.webp', 'Valide Sultan · Kapalı Havuzlar'],
+  ['assets/valide-jacuzzi.webp', 'Valide Sultan · Özel Jakuzi'],
+  ['assets/valide-indoor-pool-2.webp', 'Valide Sultan · Kapalı Termal Havuz'],
+  ['assets/valide-lounge.webp', 'Valide Sultan · Daire Oturma Alanı']
 ];
 const lightbox = $('.lightbox');
 let galleryIndex = 0;
